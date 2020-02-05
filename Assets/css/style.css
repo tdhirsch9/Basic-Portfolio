@@ -120,17 +120,17 @@ footer{
 
 
 .image {
+    float: right;
     position: relative;
-    float: left;
     margin: 10px;
        }
 
 .text-block {
 position: relative;
-width: 390px;
 padding: 5px;
-text-align: center;
+width: 390px;
 background-color: #4aaaa5;
-color: white;
-bottom: 30px;
+text-align: center;
+color: #ffffff;
+bottom: 50px;
 }
