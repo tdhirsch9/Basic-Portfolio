@@ -106,13 +106,15 @@ li {
 
 footer{
     background: #666666;
-    border-top: 8px solid #4aafaa;
+    border-top: 10px solid #4aafaa;
     overflow: auto;
-    font-size: 10px;
+    left: 0;
+    bottom: 0;
     color: #efeee7;
     text-align: center;
     line-height: 60px;
-    
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -123,6 +125,7 @@ footer{
     float: right;
     position: relative;
     margin: 10px;
+    text-decoration: none;
        }
 
 .text-block {
@@ -133,4 +136,5 @@ background-color: #4aaaa5;
 text-align: center;
 color: #ffffff;
 bottom: 50px;
+text-decoration: none;
 }
